@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/product.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header container">
+            <div class="" style="display:flex; align-items:center; padding: 6px 0; column-gap: 15px;">
+                <div class="sandwich">
+                    <span class="sandwich-line"></span>
+                    <span class="sandwich-line"></span>
+                    <span class="sandwich-line"></span>
+                </div>
+                <div class="header__logo">
+                    <a class="header__logo-link" href="/">
+                        <img src="./assets/logo.webp" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="header__nav-wrap">
+                <div class="header__nav-inner">
+                    <nav class="header__nav">
+                        <ul class="header__nav-list">
+                            <li  class="header__nav-list-item">
+                                <a class="header__nav-list-link" href="./collection.html">
+                                    Shop now
+                                </a>
+                            </li>
+                            <li  class="header__nav-list-item">
+                                <a class="header__nav-list-link" href="/#Feature-list">
+                                    Feature list
+                                </a>
+                            </li>
+                            <li  class="header__nav-list-item">
+                                <a class="header__nav-list-link" href="/#Set-includes">
+                                    Set includes
+                                </a>
+                            </li>
+                            <li  class="header__nav-list-item">
+                                <a class="header__nav-list-link" href="/#Device-options">
+                                    Device options
+                                </a>
+                            </li>
+                            <li  class="header__nav-list-item">
+                                <a class="header__nav-list-link" href="/#Apps-inside">
+                                    Apps inside
+                                </a>
+                            </li>
+                        </ul>
+                        
+                    </nav>
+                </div>
+                
+                <div class="header__nav-button-wrapper">
+                    <a href="./collection.html" class="header__nav-button">
+                        <div class="header__nav-button-span-wrapper">
+                            <span class="header__nav-button-span">
+                                Buy now
+                            </span>
+                        </div>
+                        
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <main class="main">
+        
+        <section class="product-page">
+            <!-- TITLE -->
+            <div class="product-page__title-wrap">
+                <h2 class="product-page__title --title" style="text-align: center;margin-bottom: 2rem;font-size: 52px; line-height: 58px;">
+                    Choose your model:
+                </h2>
+                <div class="connectivity__title-underline"></div>
+            </div>
+            <!-- Cards -->
+            <div class="product-page__card-wrap">
+                <div class="product-page__card-collection">
+                    <div class="product-page__card active" onclick="clickCard(this)" >
+                        <div class="title-warp">
+                            <h3 class=" title --title">
+                                STANDARD
+                            </h3>
+                            <p class="price">
+                                $ 1,750
+                            </p>
+                        </div>
+                        
+                        <div class="img-wrap">
+                            <img class="img" src="./assets/phone1.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="product-page__card" onclick="clickCard(this)" >
+                        <div class="title-warp">
+                            <h3 class=" title --title">
+                                Pro
+                            </h3>
+                            <p class="price">
+                                $ 1,750
+                            </p>
+                        </div>
+                        
+                        <div class="img-wrap">
+                            <img class="img" src="./assets/phone2.webp" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+                <form class="buy-btns-wrap" action="#">
+                    <button class="btn_1 active">
+                        <div class="btn_1-inner ">
+                            <span class="btn_1-span">
+                                Buy now
+                            </span>
+                        </div>
+                        
+                    </button>
+                </form>
+            </div>
+
+            <!-- LIST -->
+            <div class=" product-page__product-list">
+                <div class="stars-wrap">
+                    <div class="star-item">
+                        <h4 class="star-item__title">
+                            Battery
+                        </h4>
+                        <div class="item-stars">
+                            ★
+                        </div>
+                    </div>
+                    <div class="star-item">
+                        <h4 class="star-item__title">
+                            Charging speed
+                        </h4>
+                        <div class="item-stars">
+                            ★
+                        </div>
+                    </div>
+                    <div class="star-item">
+                        <h4 class="star-item__title">
+                            Charging speed
+                        </h4>
+                        <div class="item-stars">
+                            ★
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="another-description">
+                    <div class="description-item">
+                        <h5 class="description-item__title">
+                            Screen
+                        </h5>
+                        <p class="description-item__text">
+                            6.5-inch screen
+                        </p>
+                    </div>
+                    <div class="description-item">
+                        <h5 class="description-item__title">
+                            Weight
+                        </h5>
+                        <p class="description-item__text">
+                            189g
+                        </p>
+                    </div>
+                    <div class="description-item">
+                        <h5 class="description-item__title">
+                            Weight
+                        </h5>
+                        <p class="description-item__text">
+                            189g
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PAY STEPS -->
+            <div class="product-page__pay-steps">
+                <h3 class="product-page__pay-steps-title">
+                    Next steps:
+                </h3>
+                <div class="product-page__pay-steps-numbered">
+                    <span class="product-page__pay-step-circle">1</span>
+                    <div class="line"></div>
+                    <span class="product-page__pay-step-circle">2</span>
+                    <div class="line"></div>
+                    <span class="product-page__pay-step-circle">3</span>
+                </div>
+                <div class="product-page__pay-stages"  >
+
+                    <div class="product-page__pay-stage">
+                        
+                        <div class="product-page__pay-stage-img-wrap">
+                            <img src="./assets/svg/pay.svg" alt="">
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="product-page__pay-stage">
+                        
+                        <div class="product-page__pay-stage-img-wrap">
+                            <img src="./assets/svg/tracking.svg" alt="">
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="product-page__pay-stage">
+                        
+                        <div class="product-page__pay-stage-img-wrap">
+                            <img src="./assets/svg/recieve.svg" alt="">
+                        </div>
+                        
+                    </div>
+
+                    <p class="product-page__pay-stage">
+                        Pay
+                    </p>
+                    <p class="product-page__pay-stage">
+                        Check tracking code
+                    </p>
+                    <p class="product-page__pay-stage">
+                        Recieve set (3-5 d)
+                    </p>
+                    <!-- Item end -->
+                </div>
+                <div class="product-page__btn-wrap">
+                    <a class="btn_1 ">
+                        <div class="btn_1-inner ">
+                            <span class="btn_1-span">
+                                PROCEED TO CHECKOUT →
+                            </span>
+                        </div>
+                        
+                    </a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    
+    
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__logo-wrap">
+                        <a href="#" class="footer__logo">
+                            <img class="footer__logo-img" src="./assets/logo.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="footer__container">
+                        <div class="footer__contanct-list-wrap">
+                            <ul class="footer__contanct-list">
+                                <li class="footer__contanct-item">
+                                    <img src="./assets/svg/EnvelopeSimple.svg" alt="">
+                                    <a class="footer__contanct-item-link" href="">
+                                        info@orionset.com
+                                    </a>
+                                </li>
+                                <li class="footer__contanct-item">
+                                    <img src="./assets/svg/PhoneIncoming.svg" alt="">
+                                    <a class="footer__contanct-item-link" href="">
+                                        +371 24 24 18 11
+                                    </a>
+                                </li>
+                                <li class="footer__contanct-item">
+                                    <img src="./assets/svg/WhatsappLogo.svg" alt="">
+                                    <a class="footer__contanct-item-link" href="">
+                                        +371 24 24 18 11
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__made-container">
+                            <div class="footer__fast-links">
+                                <ul class="footer__fast-links-list">
+                                    <li class="footer__fast-links-item">
+                                        <a href="/#Set-includes">
+                                            SET
+                                        </a>
+                                    </li>
+                                    <li class="footer__fast-links-item">
+                                        <a href="/#Feature-list">
+                                            FEATURES
+                                        </a>
+                                    </li>
+                                    <li class="footer__fast-links-item">
+                                        <a href="/#Device-options">
+                                            DEVICES
+                                        </a>
+                                    </li>
+                                    <li class="footer__fast-links-item">
+                                        <a href="/#Apps-inside">
+                                            APPS
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="privacy-wrapper">
+                                <div class="privacy__item">
+                                    <a class="privacy__link" href="#">
+                                        Terms & Conditions
+                                    </a>
+                                </div>
+                                <div class="privacy__item">
+                                    <a class="privacy__link" href="#">
+                                        Privacy
+                                    </a>
+                                </div>
+                                <div class="warnings">
+                                    <p>
+                                        Please note, we created our product to protect people, not harm. Do not use our products in any illegal form of actions as it would be contrary to our goals, mission and vision.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__copyrights">
+                    <p class="footer__copyrights-paragraph">
+                        Copyright © 2021. Orion Set ® is presented by a limited company registered in England and Wales. Reg. nr: 11168387. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/sandwich.js"></script>
+    <script>
+        function clickCard(e){
+            for (let i = 0; i < e.parentNode.children.length; i++) {
+                e.parentNode.children[i].classList.remove("active")
+            }
+            e.classList.add("active")
+        }
+    </script>
+</body>
+</html>
